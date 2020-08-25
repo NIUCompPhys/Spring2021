@@ -49,7 +49,7 @@ def animate(i):
 
 
 fig = plt.figure()
-ax = plt.axes(xlim=(0, L), ylim=(0,yscale))
+ax = plt.axes(xlim=(0, L), ylim=(-yscale,yscale))
 line, = ax.plot([], [], lw=3)
 
 ani = animation.FuncAnimation(fig, animate, interval=15, frames = 5000, init_func=init)
