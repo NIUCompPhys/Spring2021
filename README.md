@@ -1,2 +1,2 @@
-# Spring2021
-Spring 2021 course
+# Spring2021 Phys410-510 course
+Spring 2021 Computational Physics course
